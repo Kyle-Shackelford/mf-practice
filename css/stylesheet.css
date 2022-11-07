@@ -42,8 +42,17 @@ background-color: blueviolet;
     color: black;
 }
 
+@media (max-width: 900px) {
+
+    .navbar ul {
+    background-color: brown;
+    }
+
+}
+
 @media (max-width: 600px) {
     .navbar ul {
+    background-color: darkgreen;
     flex-wrap: wrap;
     }
 
