@@ -42,11 +42,33 @@ background-color: blueviolet;
     color: black;
 }
 
+.flex-container{
+    background-color: black;
+    color: antiquewhite;
+    margin-top: 30px;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-around;
+}
+
+.box-1{
+    width: 300px;
+    height: 300px;
+    border: 1px dotted chocolate;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+h2{
+color: coral;
+}
+
 @media (max-width: 900px) {
 
     .navbar-logo{
         color: rgb(254, 198, 67);
-        font-size: 1.25rem;
+        font-size: 1.40rem;
     }
 
     .navbar ul {
@@ -58,9 +80,13 @@ background-color: blueviolet;
     background-color: rgb(254, 198, 67);
     }
 
+    .box-1{
+        font-size: 13px;
+    }
+
 }
 
-@media (max-width: 600px) {
+@media (max-width: 610px) {
     .navbar ul {
     background-color: darkgreen;
     flex-wrap: wrap;
@@ -78,6 +104,14 @@ background-color: blueviolet;
         display: none;
         width: 100%;
         text-align: center;
+    }
+
+    .flex-container{
+        flex-wrap: wrap;
+    }
+
+    .box-1{
+        font-size: 16px;
     }
 
 }
