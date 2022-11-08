@@ -44,6 +44,11 @@ background-color: blueviolet;
 
 @media (max-width: 900px) {
 
+    .navbar-logo{
+        color: rgb(254, 198, 67);
+        font-size: 1.25rem;
+    }
+
     .navbar ul {
     background-color: brown;
     }
@@ -59,6 +64,10 @@ background-color: blueviolet;
     .navbar ul {
     background-color: darkgreen;
     flex-wrap: wrap;
+    }
+
+      .navbar-logo{
+        color: rgb(252, 122, 29);
     }
 
     .navbar-toggle{
