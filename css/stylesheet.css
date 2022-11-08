@@ -48,6 +48,15 @@ background-color: blueviolet;
     background-color: brown;
     }
 
+    .navbar-links:hover{
+        border-radius: 34px;
+    background-color: rgb(254, 198, 67);
+    }
+
+    .navbar-links:hover a{
+
+    }
+
 }
 
 @media (max-width: 600px) {
